@@ -1,0 +1,2 @@
+# akwaaba
+The akwaaba project is a web application project that chronicles activities happening in Ghana in a given year. It specifically focuses on the tourism sector, entertainment and hospitality industries in the country.

@@ -1,0 +1,87 @@
+/* 
+.root {
+    max-width: 100%;
+  }
+  
+  .media {
+    height: 0;
+    padding-top: 56.25%;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .cardContent {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+/* **************************ALL EVENTS START*************************** */
+.events-container {
+  margin-top: 50px;
+  padding: 2rem 4rem;
+}
+.events-container h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+}
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
+}
+.event {
+  width: 258px;
+  max-width: 100%;
+  height: 488px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem auto;
+  padding: 1rem;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5),
+  2px 2px 5px rgba(94, 104, 121, 0.5);
+  border-radius: 20px;
+}
+.event img {
+  width: 88%;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.event h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.event .event-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.event .event-info .cost {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.event button {
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+  position: 50%;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* **************************ALL EVENTS END*************************** */
